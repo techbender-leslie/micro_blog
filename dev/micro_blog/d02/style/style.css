@@ -1,0 +1,51 @@
+.logo{
+	width:55%;
+}
+.background{
+	text-align: center;
+	
+	font-family: 'Roboto Slab', serif;;
+	color: white;
+	background-color: black;
+
+
+}
+
+.p{
+	font-size: 36px;
+
+}
+.form{
+	font-size: 22px;
+	font-family: helvetica;
+	color: white;
+	background-color: black;
+
+
+
+}
+#info{
+	
+	height:42px;
+	width:60%;
+}
+.hr{
+	background-color: white;
+	color: white;
+	height:.25px;
+	width: 70%;
+	
+}
+.h1{
+	font-size: 66px;
+
+}
+.container{
+	padding-right: 22%;
+	padding-left: 22%;
+	max-width: 40%;
+
+}
+.li{
+	
+}

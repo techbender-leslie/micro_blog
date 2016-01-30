@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="style/script.js"></script>
+  	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Titillium+Web:400,600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+</head>
+	<h1 class = "h1">MICRO BOARD</h1>
+		<img src ="style/rydaire_logo.svg" class = "logo"/>
+		<p>post what's on your mind</p>
+		<hr class = "hr">
+<body class = background>
+    
+    <form id = "form" method="POST" action="index.html">
+      	<input id="info" type="text" name="page_name" placeHolder = "write a post" minLength = "1" required />
+        <input id ="button-submit" type="submit" value="post"/>
+    </form>
+   
+    <div class = "container">
+    	
+    	<ul style="list-style-type:none" id = "blogPosts">
+    	</ul>
+    	
+    </div>
+  
+   
+</body>
+</html>
