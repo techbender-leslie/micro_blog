@@ -22,7 +22,7 @@ window.onload = function(){
 	
 	function postInfo(){
 		var infoValue = $("#info").val();
-		var blogPost = $("<li>").text(infoValue);
+		var blogPost = $("<li>").text(infoValue + " " + "~");
 		$("#blogPosts").append(blogPost);
 		posts.push(infoValue);
 		window.localStorage.setItem("blogPosts", JSON.stringify(posts));

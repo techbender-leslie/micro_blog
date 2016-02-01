@@ -1,51 +1,70 @@
-.logo{
-	width:55%;
-}
-.background{
-	text-align: center;
-	
+body {
+	text-align: center;	
 	font-family: 'Roboto Slab', serif;;
 	color: white;
 	background-color: black;
-
-
 }
 
-.p{
+.logo{
+	width:55%;
+}
+
+.p {
 	font-size: 36px;
-
 }
-.form{
-	font-size: 22px;
+
+.background textarea {
+	font-size: 24px;
 	font-family: helvetica;
-	color: white;
-	background-color: black;
-
-
-
-}
-#info{
-	
-	height:42px;
-	width:60%;
-}
-.hr{
+	color: black;
 	background-color: white;
+	padding: 10px;
+}
+
+#button-submit {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 160px;
+    height: 40px;
+    padding: 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+}
+
+hr {
+	background-color: white;
+	text-align: center;
 	color: white;
 	height:.25px;
-	width: 70%;
 	
 }
-.h1{
+
+#horz {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.h1 {
 	font-size: 66px;
 
 }
-.container{
-	padding-right: 22%;
-	padding-left: 22%;
-	max-width: 40%;
 
+h2 {
+	font-size: 36px;
 }
-.li{
+
+ul {
+	padding-left: 0;
+}
+
+#blogPosts li {
+	text-align: center;
+	font-size: 28px;
 	
 }
