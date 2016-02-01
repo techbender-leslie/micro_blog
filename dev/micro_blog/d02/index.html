@@ -1,32 +1,47 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-    
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <script type="text/javascript" src="style/script.js"></script>
-  	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Titillium+Web:400,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Titillium+Web:400,600' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 </head>
-	<h1 class = "h1">MICRO BOARD</h1>
-		<img src ="style/rydaire_logo.svg" class = "logo"/>
-		<p>post what's on your mind</p>
-		<hr class = "hr">
-<body class = background>
-    
-    <form id = "form" method="POST" action="index.html">
-      	<textarea rows="1" id="info" cols="45" minLength = "1" requiredname="page_name" placeHolder = "write a post"></textarea>
 
-        <input id ="button-submit" type="submit" value="post"/>
+  <h1 class = "h1">MICRO BOARD</h1>
+  <img src ="style/rydaire_logo.svg" class = "logo"/>
+  <br>
+  <br>
+    <div id="horz">
+      <hr>
+    </div>
+  <br>
+
+  <body class = background>
+  <h2>post what's on your mind</h2>
+  <br>
+    <form id = "form" method="POST" action="index.html">
+      <textarea id="info" name="comment" form="form" cols="60" rows="2" placeholder="write a post" minlength="1" required></textarea>
+      <br>
+      <input id ="button-submit" type="submit" value="post"/>
     </form>
+
+    <br>
+
+
    
     <div class = "container">
-    	
-    	<ul style="list-style-type:none" id = "blogPosts">
-    	</ul>
-    	
-    </div>
-  
-   
-</body>
+      <ul style="list-style-type:none" id = "blogPosts">
+      <li></li>
+      </ul> 
+    </div> 
+
+  </body>
 </html>
+
+
+<!-- <!DOCTYPE html>
+
+
+ 
+  	
+  
